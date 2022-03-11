@@ -23,3 +23,12 @@ html {
 .contact {
   background-image: url("/assets/backgrounds/c_image.jpg");
 }
+
+.hidden {
+  display: none;
+  cursor: pointer;
+}
+
+.shown {
+  cursor: pointer;
+}
