@@ -16,7 +16,6 @@ html {
   background-size: cover;
 }
 
-/* .center-content {
-  margin: auto;
-  width: 50%;
-} */
+.services {
+  background-image: url("/assets/backgrounds/s_image.jpg");
+}
