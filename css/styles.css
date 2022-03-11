@@ -19,3 +19,7 @@ html {
 .services {
   background-image: url("/assets/backgrounds/s_image.jpg");
 }
+
+.contact {
+  background-image: url("/assets/backgrounds/c_image.jpg");
+}
