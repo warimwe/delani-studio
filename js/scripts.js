@@ -6,7 +6,7 @@ function hide(shownElement, hiddenElement) {
   });
 }
 
-// function
+function hover() {}
 
 // UI logic
 $(document).ready(function () {
@@ -26,7 +26,29 @@ $(document).ready(function () {
   hide(productIcon, productParagraph);
   hide(productParagraph, productIcon);
 
+  $(".hover").hover(
+    function () {
+      $(".hover-text", this).slideToggle("slow");
+    },
+    function () {
+      $(".hover-text", this).slideToggle("slow");
+    }
+  );
+
   $("form#message").submit(function (event) {
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#message").val();
+
+    if (name && email && message) {
+      alert(
+        "Hey " +
+          name +
+          " we have received your message. Thank you for reaching out to us."
+      );
+    } else {
+      alert("Please fill the form correctly");
+    }
     event.preventDefault();
   });
 });
