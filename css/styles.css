@@ -17,7 +17,7 @@ html {
 
 .cover {
   /* The image used */
-  background-image: url("/assets/backgrounds/h_img.jpg");
+  background-image: url("../assets/backgrounds/h_img.jpg");
 
   /* Full height */
   height: 100%;
@@ -58,11 +58,11 @@ html {
 }
 
 .services {
-  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
 }
 
 .contact {
-  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-image: url("../assets/backgrounds/c_image.jpg");
 }
 
 .hidden {
